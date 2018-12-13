@@ -1,4 +1,4 @@
-import jsPERT, { pertProbability } from '../../';
+import jsPERT, { pertProbability } from 'js-pert';
 import activities from './activities.json';
 
 const pert = jsPERT(activities);
