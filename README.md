@@ -1,3 +1,11 @@
+<a href="https://npmjs.com/package/js-pert">
+  <img src="https://img.shields.io/npm/v/js-pert.svg">
+</a>
+
+<a href="https://github.com/marcolanaro/js-pert/blob/master/LICENSE.md">
+  <img src="https://img.shields.io/github/license/marcolanaro/js-pert.svg">
+</a>
+  
 # js-pert
 
 ## Program evaluation and review technique
