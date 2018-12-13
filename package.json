@@ -1,0 +1,48 @@
+{
+  "name": "js-pert",
+  "version": "1.0.0",
+  "description": "PERT - Program evaluation and review technique",
+  "main": "build/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf build && rm -rf types",
+    "build": "tsc",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcolanaro/js-pert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcolanaro/js-pert/issues"
+  },
+  "homepage": "https://github.com/marcolanaro/js-pert",
+  "keywords": [
+    "PERT",
+    "AON",
+    "normal distribution",
+    "project management",
+    "Program evaluation and review technique",
+    "network",
+    "Gantt"
+  ],
+  "author": "Marco Lanaro <marcolanaro@gmail.com> (https://github.com/marcolanaro)",
+  "license": "MIT",
+  "dependencies": {
+    "distributions": "^2.0.0"
+  },
+  "devDependencies": {
+    "husky": "^1.2.0",
+    "pretty-quick": "^1.8.0",
+    "typescript": "^3.2.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && npm run build"
+    }
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true
+  }
+}

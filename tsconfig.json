@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "types",
+    "target": "es6",
+    "module": "commonjs",
+    "removeComments": true,
+    "rootDir": "src",
+    "outDir": "build",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "alwaysStrict": false,
+    "lib": ["es2017"]
+  },
+  "exclude": ["examples", "node_modules", "types"]
+}
