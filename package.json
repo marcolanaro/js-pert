@@ -7,8 +7,8 @@
   "scripts": {
     "clean": "rm -rf build && rm -rf types",
     "test": "jest",
-    "build": "tsc",
-    "prepublish": "npm run clean && npm run build"
+    "build": "npm run test && tsc",
+    "prepublish": "npm run clean && npm run test && npm run build"
   },
   "repository": {
     "type": "git",
