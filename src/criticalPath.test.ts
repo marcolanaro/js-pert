@@ -81,8 +81,10 @@ const unhealtyNetwork = {
   },
 };
 
+export const criticalPath = ['C', 'F', 'H', 'J'];
+
 test('get critical path of healthy network', () => {
-  expect(getCriticalPath(network, slack)).toEqual(['C', 'F', 'H', 'J']);
+  expect(getCriticalPath(network, slack)).toEqual(criticalPath);
 });
 
 test('fail critical path of unhealthy network', () => {

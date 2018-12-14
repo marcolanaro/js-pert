@@ -1,6 +1,6 @@
 import getNetworkDiagram from './network';
 
-const activities = {
+export const activities = {
   A: {
     id: 'A',
     optimisticTime: 5,
@@ -73,7 +73,7 @@ const activities = {
   },
 };
 
-const network = {
+export const network = {
   __start: {
     predecessors: [],
     successors: ['A', 'B', 'C'],
