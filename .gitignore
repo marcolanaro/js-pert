@@ -5,3 +5,4 @@ types
 examples/node_modules
 examples/build
 examples/types
+coverage

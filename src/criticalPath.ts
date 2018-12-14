@@ -8,9 +8,9 @@ const getCriticalPath = (
   let currentNode = START;
   const criticalPath = [];
   while (currentNode !== END && currentNode !== undefined) {
-    const newNode = network[currentNode].successors.find(
-      node => slack[node] === 0
-    );
+    const newNode = network[currentNode]
+      ? network[currentNode].successors.find(node => slack[node] === 0)
+      : undefined;
     if (!!newNode) {
       currentNode = newNode;
       if (currentNode !== END) {

@@ -6,6 +6,7 @@
   "types": "types/index.d.ts",
   "scripts": {
     "clean": "rm -rf build && rm -rf types",
+    "test": "jest",
     "build": "tsc",
     "prepublish": "npm run clean && npm run build"
   },
@@ -32,8 +33,11 @@
     "distributions": "^2.0.0"
   },
   "devDependencies": {
+    "@types/jest": "^23.3.10",
     "husky": "^1.2.0",
+    "jest": "^23.6.0",
     "pretty-quick": "^1.8.0",
+    "ts-jest": "^23.10.5",
     "typescript": "^3.2.2"
   },
   "husky": {
@@ -44,5 +48,9 @@
   "prettier": {
     "trailingComma": "es5",
     "singleQuote": true
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "collectCoverage": true
   }
 }
