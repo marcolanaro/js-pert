@@ -5,6 +5,8 @@
 <a href="https://github.com/marcolanaro/js-pert/blob/master/LICENSE.md">
   <img src="https://img.shields.io/github/license/marcolanaro/js-pert.svg">
 </a>
+
+<img src="https://img.shields.io/travis/marcolanaro/js-pert.svg">
   
 # js-pert
 
