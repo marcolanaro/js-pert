@@ -1,13 +1,15 @@
-<a href="https://npmjs.com/package/js-pert">
-  <img src="https://img.shields.io/npm/v/js-pert.svg">
-</a>
+<div>
+  <a href="https://npmjs.com/package/js-pert">
+    <img src="https://img.shields.io/npm/v/js-pert.svg">
+  </a>
 
-<a href="https://github.com/marcolanaro/js-pert/blob/master/LICENSE.md">
-  <img src="https://img.shields.io/github/license/marcolanaro/js-pert.svg">
-</a>
+  <a href="https://github.com/marcolanaro/js-pert/blob/master/LICENSE.md">
+    <img src="https://img.shields.io/github/license/marcolanaro/js-pert.svg">
+  </a>
 
-<img src="https://img.shields.io/travis/marcolanaro/js-pert.svg">
-  
+  <img src="https://img.shields.io/travis/marcolanaro/js-pert.svg">
+</div>
+
 # js-pert
 
 ## Program evaluation and review technique
