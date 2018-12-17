@@ -8,7 +8,7 @@ import getActivitiesParams, {
 import round, { PRECISION } from './round';
 import getCriticalPath from './criticalPath';
 
-export interface IOutput {
+export interface Pert {
   activitiesParams: IActivitiesInferred;
   network: INetwork;
   earliestFinishTimes: IDictionaryTimes;
@@ -19,7 +19,7 @@ export interface IOutput {
   criticalPath: string[];
 }
 
-const getPERT = (activities: IActivities): IOutput => {
+const getPERT = (activities: IActivities): Pert => {
   const activitiesParams = getActivitiesParams(activities);
   const network = getNetworkDiagram(activities);
   const earliestFinishTimes = find({
