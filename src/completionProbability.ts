@@ -1,10 +1,10 @@
-import distributions from 'distributions';
+import gaussian from 'gaussian';
 
 import { IOutput } from './pert';
 import { END } from './network';
 import { IActivitiesInferred } from './activities';
 
-const normal = distributions.Normal();
+const distribution = gaussian(0, 1);
 
 const getVariance = (
   criticalPath: string[],
@@ -20,7 +20,7 @@ const getCompletionProbability = (
 ) => {
   const variance = getVariance(criticalPath, activitiesParams);
   const Z0 = (days - latestFinishTimes[END]) / Math.sqrt(variance);
-  return normal.cdf(Z0);
+  return distribution.cdf(Z0);
 };
 
 export default getCompletionProbability;

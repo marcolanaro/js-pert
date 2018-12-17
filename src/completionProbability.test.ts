@@ -1,4 +1,5 @@
 import getCompletionProbability from './completionProbability';
+import round from './round';
 import { END } from './network';
 import { network } from './network.test';
 import { activitiesParams } from './activities.test';
@@ -16,9 +17,9 @@ const pert = {
 };
 
 test('get completion probability on half of normal distribution', () => {
-  expect(getCompletionProbability(pert, 20)).toBe(0.5);
+  expect(round(getCompletionProbability(pert, 20), 1)).toBe(0.5);
 });
 
 test('get completion probability', () => {
-  expect(getCompletionProbability(pert, 15)).toBe(0.011083952876494404);
+  expect(round(getCompletionProbability(pert, 15), 6)).toBe(0.011084);
 });
