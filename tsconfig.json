@@ -16,5 +16,5 @@
     "alwaysStrict": false,
     "lib": ["es2017"]
   },
-  "exclude": ["examples", "node_modules", "types"]
+  "exclude": ["example", "node_modules", "types"]
 }

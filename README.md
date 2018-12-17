@@ -36,7 +36,7 @@ npm install js-pert --save
 
 ## Example
 
-Please look at [this example](./examples/src/index.ts).
+Please look at [this example](https://marcolanaro.github.io/js-pert).
 
 ## Documentation
 

@@ -1,5 +1,6 @@
 {
   "name": "pert-examples",
+  "homepage": "https://lanaro.net/js-pert",
   "version": "0.1.0",
   "description": "PERT - Program evaluation and review technique",
   "private": true,

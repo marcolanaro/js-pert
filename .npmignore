@@ -1,5 +1,5 @@
 node_modules
-examples
+example
 src
 tsconfig.json
 .gitignore
