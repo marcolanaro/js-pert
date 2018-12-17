@@ -1,6 +1,6 @@
 {
   "name": "js-pert",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "PERT - Program evaluation and review technique",
   "main": "build/index.js",
   "types": "types/index.d.ts",
